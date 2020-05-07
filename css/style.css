@@ -91,7 +91,13 @@ header .ms_jumbotrom .ms_register a {
   background-color: #f4f5f9;
   text-align: center;
   padding: 50px 0;
-
+}
+.ms_white {
+  background-color: #ffffff;
+}
+.ms_blue {
+  color: #ffff;
+  background-image: linear-gradient(#0044c1,#0227a3);
 }
 .ms_section-primary h2 + p {
   font-size: 20px;
@@ -101,13 +107,10 @@ header .ms_jumbotrom .ms_register a {
   font-size: 15px;
   color: #657390;
 }
-.ms_section-primary.ms_white {
-  background-color: #ffffff;
-}
 .ms_box {
   padding: 10px 0;
   text-align: left;
-  height: 180px;
+  height: 200px;
 }
 .ms_box img {
   width: 50px;
@@ -115,18 +118,18 @@ header .ms_jumbotrom .ms_register a {
 /* components */
 
 /* Cooperations */
-#ms_cooperations h4 {
+main #ms_cooperations h4 {
   color: #7b86a0;
 }
-#ms_cooperations a {
+main #ms_cooperations a {
   color: #267bfe;
 }
-#ms_cooperations .ms_logo-coop {
+main #ms_cooperations .ms_logo-coop {
   height: 100px;
   position: relative;
   padding: 80px 0;
 }
-#ms_cooperations .ms_logo-coop img {
+main #ms_cooperations .ms_logo-coop img {
   width: 90%;
   position: absolute;
   margin: auto;
@@ -138,31 +141,110 @@ header .ms_jumbotrom .ms_register a {
 /* end Cooperations */
 
 /* Services */
-#ms_services .ms_list-services {
+main #ms_services .ms_list-services {
   border-left: 1px solid #d1d1d1;
   line-height: 3;
   font-size: 20px;
   color: #7d86a0;
 }
-#ms_services .ms_list-services ul {
+main #ms_services .ms_list-services ul {
   list-style-type: none;
   padding-left: 10px;
 }
-#ms_services .ms_box-services {
+main #ms_services .ms_box-services {
   padding: 50px 0;
 }
 /* end Services */
 
-/* Designed */
-.lama {
+/* Carousel*/
+main .ms_carousel .ms_screen {
   padding: 50px 0;
 }
-.lama img {
+main .ms_carousel .ms_screen img {
   width: 40%;
 }
-.lama .fas {
+main .ms_carousel .ms_screen .fas {
   font-size: 40px;
   padding: 0 20px;
 }
-/* end Designed */
+main .ms_carousel .ms_screen i:first-child {
+  color: #6e7b97;
+}
+main .ms_carousel .ms_points li {
+  display: inline-block;
+}
+main .ms_carousel .ms_points li .far,
+main .ms_carousel .ms_points li .fas {
+  color: #0069ff;
+}
+
+/** Carousel-2-cta **/
+main .ms_carousel .ms_screen .ms_cit {
+  width: 50%;
+  padding: 50px 10px;
+  background: #ffff;
+  vertical-align: middle;
+  display: inline-block;
+}
+main .ms_carousel .ms_screen .ms_cit p:first-of-type {
+  padding: 20px;
+  color: #828ca4;
+  font-size: 20px;
+}
+main .ms_carousel .ms_screen .ms_cit a:last-child {
+  color: #3585ff;
+}
+/** end Carousel-2-cta**/
+/* end Carousel*/
+
+/* Worldwide */
+
+main #ms_worldwide .ms_line {
+  margin-top: 10px;
+
+  height: 30px;
+  border-bottom: 1px solid #bacaec;
+}
+main #ms_worldwide .ms_line div:nth-child(2) {
+  color: #92a7da;
+}
+main #ms_worldwide .ms_line a {
+  color: #00b5ca;
+}
+main #ms_worldwide .ms_box-line .ms_line:last-child {
+  border: none;
+}
+/* end Worldwide */
+
+/* Get Start */
+main .ms_button {
+  margin: 20px;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #217bff;
+}
+/* end Get Start */
 /***** end Main ****/
+
+/***** Footer ****/
+#ms_footer {
+  background-color: #041c4e;
+  padding: 50px 0;
+  color: #848da4;
+}
+
+.ms_social {
+  font-size: 25px;
+}
+.ms_made img {
+  margin-bottom: 15px;
+  width: 45px;
+}
+.ms_made p:last-of-type {
+  color: #4f5f81;
+}
+.ms_social li {
+  display: inline-block;
+}
+/***** end Footer ****/
