@@ -1,0 +1,168 @@
+/* General rulez */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 100%;
+}
+/* end General rulez */
+
+
+/***** Header ****/
+/* Nav col */
+header .ms_nav {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  /* height: 200px; */
+}
+header .ms_nav .ms_menu-bar li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+header .ms_nav .ms_menu .ms_button-signup {
+  color: #0069ff;
+  border-color: #0069ff;
+}
+
+/* Burger menu */
+header .ms_nav .burger-menu .fas {
+  color: #0069ff;
+  font-size: 25px;
+}
+/* Burger menu */
+/* end Nav col */
+
+/* Jumbotrom */
+header .ms_jumbotrom {
+  background-image: url(../img/Header/bg-home-1-d54581d7.jpg);
+  background: cover;
+  padding: 70px 0;
+}
+header .ms_jumbotrom .ms_cta h1 {
+  font-size: 63px;
+  color: #fff;
+}
+header .ms_jumbotrom .ms_cta p {
+  font-size: 22px;
+  color: #cadcff;
+}
+header .ms_jumbotrom .ms_register {
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 20px;
+  text-align: center;
+}
+header .ms_jumbotrom .ms_register h2:nth-child(2) {
+  color: #0069ff;
+}
+header .ms_jumbotrom .ms_register .ms_form,
+header .ms_jumbotrom .ms_register .ms_button-account,
+header .ms_jumbotrom .ms_register .ms_button-google {
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+header .ms_jumbotrom .ms_register .ms_button-account {
+  width: 100%;
+  background-color: #579aff;
+  color: #fff;
+}
+header .ms_jumbotrom .ms_register .ms_button-google {
+  position: relative;
+  width: 100%;
+  color: #5a6987;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+}
+header .ms_jumbotrom .ms_register .icon-google {
+  position: absolute;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+}
+header .ms_jumbotrom .ms_register a {
+  text-decoration: underline;
+}
+/* end Jumbotrom */
+/***** end Header ****/
+
+/***** Main ****/
+/* components */
+.ms_section-primary {
+  background-color: #f4f5f9;
+  text-align: center;
+  padding: 50px 0;
+
+}
+.ms_section-primary h2 + p {
+  font-size: 20px;
+  color: #657390;
+}
+.ms_section-primary h3 + p {
+  font-size: 15px;
+  color: #657390;
+}
+.ms_section-primary.ms_white {
+  background-color: #ffffff;
+}
+.ms_box {
+  padding: 10px 0;
+  text-align: left;
+  height: 180px;
+}
+.ms_box img {
+  width: 50px;
+}
+/* components */
+
+/* Cooperations */
+#ms_cooperations h4 {
+  color: #7b86a0;
+}
+#ms_cooperations a {
+  color: #267bfe;
+}
+#ms_cooperations .ms_logo-coop {
+  height: 100px;
+  position: relative;
+  padding: 80px 0;
+}
+#ms_cooperations .ms_logo-coop img {
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* end Cooperations */
+
+/* Services */
+#ms_services .ms_list-services {
+  border-left: 1px solid #d1d1d1;
+  line-height: 3;
+  font-size: 20px;
+  color: #7d86a0;
+}
+#ms_services .ms_list-services ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+#ms_services .ms_box-services {
+  padding: 50px 0;
+}
+/* end Services */
+
+/* Designed */
+.lama {
+  padding: 50px 0;
+}
+.lama img {
+  width: 40%;
+}
+.lama .fas {
+  font-size: 40px;
+  padding: 0 20px;
+}
+/* end Designed */
+/***** end Main ****/
