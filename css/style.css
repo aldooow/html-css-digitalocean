@@ -5,15 +5,20 @@ body {
 img {
   width: 100%;
 }
+li {
+  list-style-type: none;
+}
 /* end General rulez */
 
 
 /***** Header ****/
 /* Nav col */
+
 header .ms_nav {
-  padding-top: 40px;
+  background-color: #ffff;
+  padding-top: 20px;
   padding-bottom: 10px;
-  /* height: 200px; */
+  width: 100%;
 }
 header .ms_nav .ms_menu-bar li {
   display: inline-block;
@@ -23,7 +28,9 @@ header .ms_nav .ms_menu .ms_button-signup {
   color: #0069ff;
   border-color: #0069ff;
 }
-
+header .ms_nav .ms_logo img {
+  width: 180px;
+}
 /* Burger menu */
 header .ms_nav .burger-menu .fas {
   color: #0069ff;
@@ -33,53 +40,54 @@ header .ms_nav .burger-menu .fas {
 /* end Nav col */
 
 /* Jumbotrom */
-header .ms_jumbotrom {
+header #ms_jumbotrom {
+  margin-top: 80px;
   background-image: url(../img/Header/bg-home-1-d54581d7.jpg);
   background: cover;
   padding: 70px 0;
 }
-header .ms_jumbotrom .ms_cta h1 {
+header #ms_jumbotrom .ms_cta h1 {
   font-size: 63px;
   color: #fff;
 }
-header .ms_jumbotrom .ms_cta p {
+header #ms_jumbotrom .ms_cta p {
   font-size: 22px;
   color: #cadcff;
 }
-header .ms_jumbotrom .ms_register {
+header #ms_jumbotrom .ms_register {
   background-color: #fff;
   border-radius: 2%;
   padding: 20px;
   text-align: center;
 }
-header .ms_jumbotrom .ms_register h2:nth-child(2) {
+header #ms_jumbotrom .ms_register h2:nth-child(2) {
   color: #0069ff;
 }
-header .ms_jumbotrom .ms_register .ms_form,
-header .ms_jumbotrom .ms_register .ms_button-account,
-header .ms_jumbotrom .ms_register .ms_button-google {
+header #ms_jumbotrom .ms_register .ms_form,
+header #ms_jumbotrom .ms_register .ms_button-account,
+header #ms_jumbotrom .ms_register .ms_button-google {
   margin-bottom: 10px;
   box-shadow: none;
 }
-header .ms_jumbotrom .ms_register .ms_button-account {
+header #ms_jumbotrom .ms_register .ms_button-account {
   width: 100%;
   background-color: #579aff;
   color: #fff;
 }
-header .ms_jumbotrom .ms_register .ms_button-google {
+header #ms_jumbotrom .ms_register .ms_button-google {
   position: relative;
   width: 100%;
   color: #5a6987;
   border: none;
   border-bottom: 1px solid #ebebeb;
 }
-header .ms_jumbotrom .ms_register .icon-google {
+header #ms_jumbotrom .ms_register .icon-google {
   position: absolute;
   left: 10px;
   height: 20px;
   width: 20px;
 }
-header .ms_jumbotrom .ms_register a {
+header #ms_jumbotrom .ms_register a {
   text-decoration: underline;
 }
 /* end Jumbotrom */
@@ -228,23 +236,35 @@ main .ms_button {
 /***** end Main ****/
 
 /***** Footer ****/
-#ms_footer {
+footer {
   background-color: #041c4e;
   padding: 50px 0;
   color: #848da4;
 }
-
-.ms_social {
-  font-size: 25px;
+footer h4 {
+  color: #ffff;
 }
-.ms_made img {
+footer .ms_made .ms_social {
+  font-size: 25px;
+  padding-left: 0;
+  margin-left: 0;
+}
+footer .ms_made img {
   margin-bottom: 15px;
   width: 45px;
 }
-.ms_made p:last-of-type {
+footer .ms_made p:last-of-type {
   color: #4f5f81;
 }
-.ms_social li {
+footer .ms_made .ms_social li {
   display: inline-block;
+  list-style-type: none;
+}
+footer .ms_list-footer ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+footer .ms_list-footer ul li {
+  margin: 10px 0;
 }
 /***** end Footer ****/
