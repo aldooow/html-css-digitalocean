@@ -269,3 +269,42 @@ footer .ms_list-footer ul li {
   margin: 10px 0;
 }
 /***** end Footer ****/
+
+
+/* <!-- Chat-box --> */
+#ms_chat-box {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 0;
+}
+
+#ms_chat-box .ms_cloud {
+  display: inline-block;
+  border-radius: 2%;
+  padding: 10px;
+  background: #ffff;
+  width: 300px;
+}
+#ms_chat-box .ms_tri {
+  font-size: 30px;
+  display: inline-block;
+  color: #ffff;
+  margin-left: -5px;
+}
+#ms_chat-box .ms_shark-box {
+  margin: 20px 10px;
+
+  /* display: inline-block; */
+  border-radius: 5%;
+  width: 60px;
+  padding: 10px 0;
+  background: #0169ff;
+}
+/* <!-- end Chat-box --> */
+
+@media all and (min-width: 1200px) {
+  .ms_shark-box {
+    float: right;
+  }
+}
